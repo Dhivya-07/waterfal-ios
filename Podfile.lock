@@ -1,0 +1,49 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.5.1)
+  - DGActivityIndicatorView (2.1.1)
+  - DropDown (2.3.13)
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.10.0):
+    - GoogleMaps/Base (= 3.10.0)
+  - razorpay-pod (1.1.7)
+  - TPSDropDown (1.0.1):
+    - TPSMKDropdownMenu (~> 1.3)
+  - TPSMKDropdownMenu (1.3.1)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - DGActivityIndicatorView
+  - DropDown
+  - GoogleMaps
+  - GooglePlaces
+  - razorpay-pod (~> 1.1.5)
+  - TPSDropDown (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - DGActivityIndicatorView
+    - DropDown
+    - GoogleMaps
+    - GooglePlaces
+    - razorpay-pod
+    - TPSDropDown
+    - TPSMKDropdownMenu
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: e544318243b95d1e94522613238b86ccd425e881
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  GooglePlaces: 9a6f5f3a0c88da2aa1bf7426a65d3e004f5e69a1
+  razorpay-pod: 6ee0c8c7afad8eead9524d5eb516bc35ac1604ef
+  TPSDropDown: 74742a46adf07002fe425d296d9a1fea5a50e342
+  TPSMKDropdownMenu: 39d1f450747f152dbbede525b26033ab0571ac54
+
+PODFILE CHECKSUM: 1b822ca395ce4205b5db199000d35ff289b79489
+
+COCOAPODS: 1.9.3
