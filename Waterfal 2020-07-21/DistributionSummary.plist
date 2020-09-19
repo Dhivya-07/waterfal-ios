@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Waterfal.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>84F3597B83D0534637FD28BA8D24E83534F95E60</string>
+				<key>dateExpires</key>
+				<string>24/01/21</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>84F3597B83D0534637FD28BA8D24E83534F95E60</string>
+						<key>dateExpires</key>
+						<string>24/01/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Razorpay.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>DA8PB7K3YR</string>
+						<key>name</key>
+						<string>Manoj D M</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>DA8PB7K3YR.com.redantmedia.Waterfal</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>DA8PB7K3YR</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>DA8PB7K3YR.com.redantmedia.Waterfal</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Waterfal.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a0d8ce0b-650b-496c-b930-2ae16c91844d</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>DA8PB7K3YR</string>
+				<key>name</key>
+				<string>Manoj D M</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

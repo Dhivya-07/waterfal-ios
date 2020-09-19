@@ -1,0 +1,1045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043B9FF02510FDBA006EDB90 /* UIViewController+EQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B9FEF2510FDBA006EDB90 /* UIViewController+EQViewController.m */; };
+		043E28A8250F35F0001E7487 /* webviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E28A7250F35F0001E7487 /* webviewViewController.m */; };
+		043E28AA250F393F001E7487 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043E28A9250F393F001E7487 /* WebKit.framework */; };
+		043E28AD250F5313001E7487 /* googleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E28AC250F5313001E7487 /* googleMapViewController.m */; };
+		043E28B0250F8BDA001E7487 /* cardsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E28AF250F8BDA001E7487 /* cardsCollectionViewCell.m */; };
+		043E28B3250F9E82001E7487 /* CustumerSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E28B2250F9E82001E7487 /* CustumerSearchViewController.m */; };
+		044284F0250786C700335B7C /* HHDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = 044284EF250786C600335B7C /* HHDropDownList.m */; };
+		0442F52C2514A170003E2BE7 /* CatogoryAndSeriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0442F52B2514A170003E2BE7 /* CatogoryAndSeriesViewController.m */; };
+		0442F52F2514BABC003E2BE7 /* DealerCatagoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0442F52E2514BABC003E2BE7 /* DealerCatagoryViewController.m */; };
+		0444A3CA250BABF90057856E /* CustumerProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444A3C9250BABF90057856E /* CustumerProductsViewController.m */; };
+		047BED14250BB1D200C2A66D /* CustumerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BED13250BB1D200C2A66D /* CustumerListViewController.m */; };
+		047BED1A250BB68A00C2A66D /* CustumerlistCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BED19250BB68A00C2A66D /* CustumerlistCollectionViewCell.m */; };
+		047BED1D250BB6FC00C2A66D /* CustumerProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BED1C250BB6FC00C2A66D /* CustumerProductDetailsViewController.m */; };
+		0497C7A7250A0EC000949A45 /* ProductsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497C7A6250A0EC000949A45 /* ProductsCollectionViewCell.m */; };
+		04B99945250B586100069BDA /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99944250B586100069BDA /* CustomerViewController.m */; };
+		04E0D21D250DD2F700335E2D /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0D21C250DD2F700335E2D /* ShareViewController.m */; };
+		37C9E36ED400B22A0D99B696 /* Pods_Waterfal_WaterfalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6303D25B5ADF4EC0B6C01134 /* Pods_Waterfal_WaterfalUITests.framework */; };
+		6732BB7424A0F97E00390AE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6732BB7324A0F97D00390AE8 /* AVFoundation.framework */; };
+		6732BB7624A0F98E00390AE8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6732BB7524A0F98E00390AE8 /* AVKit.framework */; };
+		673715F524505B2D00C238D2 /* HistorySetlementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673715F424505B2D00C238D2 /* HistorySetlementViewController.m */; };
+		673715F724505ECE00C238D2 /* history.html in Resources */ = {isa = PBXBuildFile; fileRef = 673715F624505ECE00C238D2 /* history.html */; };
+		67379ADF244EDCC0008AFA62 /* OrderConformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379ADE244EDCC0008AFA62 /* OrderConformationViewController.m */; };
+		67379AE2244EF29F008AFA62 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AE1244EF29F008AFA62 /* SplashViewController.m */; };
+		67379AE5244EF560008AFA62 /* LoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AE4244EF560008AFA62 /* LoginRegisterViewController.m */; };
+		67379AE8244EF6A0008AFA62 /* VerifyOTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AE7244EF6A0008AFA62 /* VerifyOTPViewController.m */; };
+		67379AEB244EFA0A008AFA62 /* Reg1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AEA244EFA0A008AFA62 /* Reg1ViewController.m */; };
+		67379AEE244EFB3D008AFA62 /* Reg2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AED244EFB3D008AFA62 /* Reg2ViewController.m */; };
+		67379AF1244EFBAC008AFA62 /* Reg3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AF0244EFBAC008AFA62 /* Reg3ViewController.m */; };
+		67379AF4244F00B4008AFA62 /* OfferSchemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AF3244F00B4008AFA62 /* OfferSchemeViewController.m */; };
+		67379AF7244F0978008AFA62 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AF6244F0978008AFA62 /* PaymentViewController.m */; };
+		67379AFA244F3640008AFA62 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AF9244F3640008AFA62 /* ProfileViewController.m */; };
+		67379AFD244F420F008AFA62 /* CustomerHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AFC244F420F008AFA62 /* CustomerHomeViewController.m */; };
+		67379B00244F4776008AFA62 /* Mycart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67379AFF244F4776008AFA62 /* Mycart2ViewController.m */; };
+		675286CC244EA28D0046A74D /* DealerDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675286CB244EA28D0046A74D /* DealerDashboardViewController.m */; };
+		675286CF244EB1D10046A74D /* ProductListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675286CE244EB1D10046A74D /* ProductListsViewController.m */; };
+		675286D2244EBF090046A74D /* ProductDetaislViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675286D1244EBF090046A74D /* ProductDetaislViewController.m */; };
+		675286D5244EC67C0046A74D /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675286D4244EC67C0046A74D /* CartViewController.m */; };
+		675286D8244ECE1B0046A74D /* OrderInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675286D7244ECE1B0046A74D /* OrderInformationViewController.m */; };
+		6769230B24920DC4008E8A05 /* MainHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6769230A24920DC4008E8A05 /* MainHomeViewController.m */; };
+		6769230E2492578A008E8A05 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6769230D2492578A008E8A05 /* SearchViewController.m */; };
+		6791BC7A244D8D9C00F26AFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6791BC79244D8D9C00F26AFC /* AppDelegate.m */; };
+		6791BC7D244D8D9C00F26AFC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6791BC7C244D8D9C00F26AFC /* SceneDelegate.m */; };
+		6791BC80244D8D9C00F26AFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6791BC7F244D8D9C00F26AFC /* ViewController.m */; };
+		6791BC83244D8D9C00F26AFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6791BC81244D8D9C00F26AFC /* Main.storyboard */; };
+		6791BC86244D8D9C00F26AFC /* Waterfal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6791BC84244D8D9C00F26AFC /* Waterfal.xcdatamodeld */; };
+		6791BC88244D8DA000F26AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6791BC87244D8DA000F26AFC /* Assets.xcassets */; };
+		6791BC8B244D8DA000F26AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6791BC89244D8DA000F26AFC /* LaunchScreen.storyboard */; };
+		6791BC8E244D8DA000F26AFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6791BC8D244D8DA000F26AFC /* main.m */; };
+		6791BC98244D8DA000F26AFC /* WaterfalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6791BC97244D8DA000F26AFC /* WaterfalTests.m */; };
+		6791BCA3244D8DA000F26AFC /* WaterfalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6791BCA2244D8DA000F26AFC /* WaterfalUITests.m */; };
+		67DA66F1244DE10500399B20 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DA66F0244DE10500399B20 /* ProductsViewController.m */; };
+		67DA66F4244DE9E500399B20 /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DA66F3244DE9E500399B20 /* FavouritesViewController.m */; };
+		67DA66F7244DF82300399B20 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DA66F6244DF82300399B20 /* HistoryViewController.m */; };
+		70B074C14F0AC660D6BAC679 /* Pods_Waterfal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54AD19ADB7A5DF293C3688E /* Pods_Waterfal.framework */; };
+		8BD79E8C6D97D01B7DBAD5EB /* Pods_WaterfalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02248EB61BC90F38919576 /* Pods_WaterfalTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6791BC94244D8DA000F26AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6791BC6D244D8D9C00F26AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6791BC74244D8D9C00F26AFC;
+			remoteInfo = Waterfal;
+		};
+		6791BC9F244D8DA000F26AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6791BC6D244D8D9C00F26AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6791BC74244D8D9C00F26AFC;
+			remoteInfo = Waterfal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043B9FEF2510FDBA006EDB90 /* UIViewController+EQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EQViewController.m"; sourceTree = "<group>"; };
+		043B9FF12510FDD2006EDB90 /* UIViewController+EQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EQViewController.h"; sourceTree = "<group>"; };
+		043E28A6250F35F0001E7487 /* webviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webviewViewController.h; sourceTree = "<group>"; };
+		043E28A7250F35F0001E7487 /* webviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webviewViewController.m; sourceTree = "<group>"; };
+		043E28A9250F393F001E7487 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		043E28AB250F5313001E7487 /* googleMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = googleMapViewController.h; sourceTree = "<group>"; };
+		043E28AC250F5313001E7487 /* googleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleMapViewController.m; sourceTree = "<group>"; };
+		043E28AE250F8BDA001E7487 /* cardsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cardsCollectionViewCell.h; sourceTree = "<group>"; };
+		043E28AF250F8BDA001E7487 /* cardsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardsCollectionViewCell.m; sourceTree = "<group>"; };
+		043E28B1250F9E82001E7487 /* CustumerSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustumerSearchViewController.h; sourceTree = "<group>"; };
+		043E28B2250F9E82001E7487 /* CustumerSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustumerSearchViewController.m; sourceTree = "<group>"; };
+		044284EE250786C000335B7C /* HHDropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDropDownList.h; sourceTree = "<group>"; };
+		044284EF250786C600335B7C /* HHDropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDropDownList.m; sourceTree = "<group>"; };
+		0442F52A2514A170003E2BE7 /* CatogoryAndSeriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatogoryAndSeriesViewController.h; sourceTree = "<group>"; };
+		0442F52B2514A170003E2BE7 /* CatogoryAndSeriesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatogoryAndSeriesViewController.m; sourceTree = "<group>"; };
+		0442F52D2514BABC003E2BE7 /* DealerCatagoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealerCatagoryViewController.h; sourceTree = "<group>"; };
+		0442F52E2514BABC003E2BE7 /* DealerCatagoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealerCatagoryViewController.m; sourceTree = "<group>"; };
+		0444A3C8250BABF90057856E /* CustumerProductsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustumerProductsViewController.h; sourceTree = "<group>"; };
+		0444A3C9250BABF90057856E /* CustumerProductsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustumerProductsViewController.m; sourceTree = "<group>"; };
+		047BED12250BB1D200C2A66D /* CustumerListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustumerListViewController.h; sourceTree = "<group>"; };
+		047BED13250BB1D200C2A66D /* CustumerListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustumerListViewController.m; sourceTree = "<group>"; };
+		047BED18250BB68A00C2A66D /* CustumerlistCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustumerlistCollectionViewCell.h; sourceTree = "<group>"; };
+		047BED19250BB68A00C2A66D /* CustumerlistCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustumerlistCollectionViewCell.m; sourceTree = "<group>"; };
+		047BED1B250BB6FC00C2A66D /* CustumerProductDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustumerProductDetailsViewController.h; sourceTree = "<group>"; };
+		047BED1C250BB6FC00C2A66D /* CustumerProductDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustumerProductDetailsViewController.m; sourceTree = "<group>"; };
+		0497C7A5250A0EC000949A45 /* ProductsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsCollectionViewCell.h; sourceTree = "<group>"; };
+		0497C7A6250A0EC000949A45 /* ProductsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsCollectionViewCell.m; sourceTree = "<group>"; };
+		04B99943250B586100069BDA /* CustomerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		04B99944250B586100069BDA /* CustomerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
+		04E0D21B250DD2F700335E2D /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		04E0D21C250DD2F700335E2D /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		0D17ED63D5CD49213DDF53F8 /* Pods-Waterfal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfal.release.xcconfig"; path = "Target Support Files/Pods-Waterfal/Pods-Waterfal.release.xcconfig"; sourceTree = "<group>"; };
+		4BC500789AB02C8BD300C4C1 /* Pods-Waterfal-WaterfalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfal-WaterfalUITests.release.xcconfig"; path = "Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E42E8650CABAE8C49032D60 /* Pods-WaterfalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfalTests.debug.xcconfig"; path = "Target Support Files/Pods-WaterfalTests/Pods-WaterfalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6303D25B5ADF4EC0B6C01134 /* Pods_Waterfal_WaterfalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Waterfal_WaterfalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6732BB7324A0F97D00390AE8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6732BB7524A0F98E00390AE8 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		673715F324505B2D00C238D2 /* HistorySetlementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistorySetlementViewController.h; sourceTree = "<group>"; };
+		673715F424505B2D00C238D2 /* HistorySetlementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistorySetlementViewController.m; sourceTree = "<group>"; };
+		673715F624505ECE00C238D2 /* history.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = history.html; sourceTree = "<group>"; };
+		67379ADD244EDCC0008AFA62 /* OrderConformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderConformationViewController.h; sourceTree = "<group>"; };
+		67379ADE244EDCC0008AFA62 /* OrderConformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderConformationViewController.m; sourceTree = "<group>"; };
+		67379AE0244EF29F008AFA62 /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		67379AE1244EF29F008AFA62 /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		67379AE3244EF560008AFA62 /* LoginRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginRegisterViewController.h; sourceTree = "<group>"; };
+		67379AE4244EF560008AFA62 /* LoginRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRegisterViewController.m; sourceTree = "<group>"; };
+		67379AE6244EF6A0008AFA62 /* VerifyOTPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyOTPViewController.h; sourceTree = "<group>"; };
+		67379AE7244EF6A0008AFA62 /* VerifyOTPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifyOTPViewController.m; sourceTree = "<group>"; };
+		67379AE9244EFA0A008AFA62 /* Reg1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reg1ViewController.h; sourceTree = "<group>"; };
+		67379AEA244EFA0A008AFA62 /* Reg1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reg1ViewController.m; sourceTree = "<group>"; };
+		67379AEC244EFB3D008AFA62 /* Reg2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reg2ViewController.h; sourceTree = "<group>"; };
+		67379AED244EFB3D008AFA62 /* Reg2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reg2ViewController.m; sourceTree = "<group>"; };
+		67379AEF244EFBAC008AFA62 /* Reg3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reg3ViewController.h; sourceTree = "<group>"; };
+		67379AF0244EFBAC008AFA62 /* Reg3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reg3ViewController.m; sourceTree = "<group>"; };
+		67379AF2244F00B4008AFA62 /* OfferSchemeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferSchemeViewController.h; sourceTree = "<group>"; };
+		67379AF3244F00B4008AFA62 /* OfferSchemeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferSchemeViewController.m; sourceTree = "<group>"; };
+		67379AF5244F0978008AFA62 /* PaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		67379AF6244F0978008AFA62 /* PaymentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		67379AF8244F3640008AFA62 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		67379AF9244F3640008AFA62 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		67379AFB244F420F008AFA62 /* CustomerHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerHomeViewController.h; sourceTree = "<group>"; };
+		67379AFC244F420F008AFA62 /* CustomerHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerHomeViewController.m; sourceTree = "<group>"; };
+		67379AFE244F4776008AFA62 /* Mycart2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mycart2ViewController.h; sourceTree = "<group>"; };
+		67379AFF244F4776008AFA62 /* Mycart2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mycart2ViewController.m; sourceTree = "<group>"; };
+		675286CA244EA28D0046A74D /* DealerDashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealerDashboardViewController.h; sourceTree = "<group>"; };
+		675286CB244EA28D0046A74D /* DealerDashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealerDashboardViewController.m; sourceTree = "<group>"; };
+		675286CD244EB1D10046A74D /* ProductListsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListsViewController.h; sourceTree = "<group>"; };
+		675286CE244EB1D10046A74D /* ProductListsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListsViewController.m; sourceTree = "<group>"; };
+		675286D0244EBF090046A74D /* ProductDetaislViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductDetaislViewController.h; sourceTree = "<group>"; };
+		675286D1244EBF090046A74D /* ProductDetaislViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductDetaislViewController.m; sourceTree = "<group>"; };
+		675286D3244EC67C0046A74D /* CartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		675286D4244EC67C0046A74D /* CartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		675286D6244ECE1B0046A74D /* OrderInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderInformationViewController.h; sourceTree = "<group>"; };
+		675286D7244ECE1B0046A74D /* OrderInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderInformationViewController.m; sourceTree = "<group>"; };
+		6769230924920DC4008E8A05 /* MainHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHomeViewController.h; sourceTree = "<group>"; };
+		6769230A24920DC4008E8A05 /* MainHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainHomeViewController.m; sourceTree = "<group>"; };
+		6769230C2492578A008E8A05 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		6769230D2492578A008E8A05 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		6791BC75244D8D9C00F26AFC /* Waterfal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waterfal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6791BC78244D8D9C00F26AFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6791BC79244D8D9C00F26AFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6791BC7B244D8D9C00F26AFC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6791BC7C244D8D9C00F26AFC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6791BC7E244D8D9C00F26AFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6791BC7F244D8D9C00F26AFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6791BC82244D8D9C00F26AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6791BC85244D8D9C00F26AFC /* Waterfal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Waterfal.xcdatamodel; sourceTree = "<group>"; };
+		6791BC87244D8DA000F26AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6791BC8A244D8DA000F26AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6791BC8C244D8DA000F26AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6791BC8D244D8DA000F26AFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6791BC93244D8DA000F26AFC /* WaterfalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterfalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6791BC97244D8DA000F26AFC /* WaterfalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfalTests.m; sourceTree = "<group>"; };
+		6791BC99244D8DA000F26AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6791BC9E244D8DA000F26AFC /* WaterfalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterfalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6791BCA2244D8DA000F26AFC /* WaterfalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfalUITests.m; sourceTree = "<group>"; };
+		6791BCA4244D8DA000F26AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67DA66EF244DE10500399B20 /* ProductsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		67DA66F0244DE10500399B20 /* ProductsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		67DA66F2244DE9E500399B20 /* FavouritesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavouritesViewController.h; sourceTree = "<group>"; };
+		67DA66F3244DE9E500399B20 /* FavouritesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavouritesViewController.m; sourceTree = "<group>"; };
+		67DA66F5244DF82300399B20 /* HistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		67DA66F6244DF82300399B20 /* HistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		80BEBCD39BF706444E746C61 /* Pods-WaterfalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfalTests.release.xcconfig"; path = "Target Support Files/Pods-WaterfalTests/Pods-WaterfalTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E02248EB61BC90F38919576 /* Pods_WaterfalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterfalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983214D7A0BA54A5966A1FA3 /* Pods-Waterfal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfal.debug.xcconfig"; path = "Target Support Files/Pods-Waterfal/Pods-Waterfal.debug.xcconfig"; sourceTree = "<group>"; };
+		D54AD19ADB7A5DF293C3688E /* Pods_Waterfal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Waterfal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E670F1D4A80C8484748358F6 /* Pods-Waterfal-WaterfalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfal-WaterfalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6791BC72244D8D9C00F26AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6732BB7424A0F97E00390AE8 /* AVFoundation.framework in Frameworks */,
+				70B074C14F0AC660D6BAC679 /* Pods_Waterfal.framework in Frameworks */,
+				043E28AA250F393F001E7487 /* WebKit.framework in Frameworks */,
+				6732BB7624A0F98E00390AE8 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6791BC90244D8DA000F26AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD79E8C6D97D01B7DBAD5EB /* Pods_WaterfalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6791BC9B244D8DA000F26AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C9E36ED400B22A0D99B696 /* Pods_Waterfal_WaterfalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094ADCB5B651A148B31D6AE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				983214D7A0BA54A5966A1FA3 /* Pods-Waterfal.debug.xcconfig */,
+				0D17ED63D5CD49213DDF53F8 /* Pods-Waterfal.release.xcconfig */,
+				E670F1D4A80C8484748358F6 /* Pods-Waterfal-WaterfalUITests.debug.xcconfig */,
+				4BC500789AB02C8BD300C4C1 /* Pods-Waterfal-WaterfalUITests.release.xcconfig */,
+				4E42E8650CABAE8C49032D60 /* Pods-WaterfalTests.debug.xcconfig */,
+				80BEBCD39BF706444E746C61 /* Pods-WaterfalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6791BC6C244D8D9C00F26AFC = {
+			isa = PBXGroup;
+			children = (
+				6791BC77244D8D9C00F26AFC /* Waterfal */,
+				6791BC96244D8DA000F26AFC /* WaterfalTests */,
+				6791BCA1244D8DA000F26AFC /* WaterfalUITests */,
+				6791BC76244D8D9C00F26AFC /* Products */,
+				094ADCB5B651A148B31D6AE7 /* Pods */,
+				F79D09FCB6C90D3DD46C8424 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6791BC76244D8D9C00F26AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6791BC75244D8D9C00F26AFC /* Waterfal.app */,
+				6791BC93244D8DA000F26AFC /* WaterfalTests.xctest */,
+				6791BC9E244D8DA000F26AFC /* WaterfalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6791BC77244D8D9C00F26AFC /* Waterfal */ = {
+			isa = PBXGroup;
+			children = (
+				673715F624505ECE00C238D2 /* history.html */,
+				6791BC78244D8D9C00F26AFC /* AppDelegate.h */,
+				6791BC79244D8D9C00F26AFC /* AppDelegate.m */,
+				67379AE0244EF29F008AFA62 /* SplashViewController.h */,
+				6769230924920DC4008E8A05 /* MainHomeViewController.h */,
+				6769230A24920DC4008E8A05 /* MainHomeViewController.m */,
+				67379AE1244EF29F008AFA62 /* SplashViewController.m */,
+				6769230C2492578A008E8A05 /* SearchViewController.h */,
+				6769230D2492578A008E8A05 /* SearchViewController.m */,
+				67379AE3244EF560008AFA62 /* LoginRegisterViewController.h */,
+				673715F324505B2D00C238D2 /* HistorySetlementViewController.h */,
+				673715F424505B2D00C238D2 /* HistorySetlementViewController.m */,
+				67379AE6244EF6A0008AFA62 /* VerifyOTPViewController.h */,
+				67379AE7244EF6A0008AFA62 /* VerifyOTPViewController.m */,
+				67379AE9244EFA0A008AFA62 /* Reg1ViewController.h */,
+				047BED12250BB1D200C2A66D /* CustumerListViewController.h */,
+				047BED13250BB1D200C2A66D /* CustumerListViewController.m */,
+				67379AEA244EFA0A008AFA62 /* Reg1ViewController.m */,
+				67379AE4244EF560008AFA62 /* LoginRegisterViewController.m */,
+				6791BC7B244D8D9C00F26AFC /* SceneDelegate.h */,
+				6791BC7C244D8D9C00F26AFC /* SceneDelegate.m */,
+				6791BC7E244D8D9C00F26AFC /* ViewController.h */,
+				675286D0244EBF090046A74D /* ProductDetaislViewController.h */,
+				675286D3244EC67C0046A74D /* CartViewController.h */,
+				675286D6244ECE1B0046A74D /* OrderInformationViewController.h */,
+				67379ADD244EDCC0008AFA62 /* OrderConformationViewController.h */,
+				67379ADE244EDCC0008AFA62 /* OrderConformationViewController.m */,
+				675286D7244ECE1B0046A74D /* OrderInformationViewController.m */,
+				67379AF5244F0978008AFA62 /* PaymentViewController.h */,
+				67379AF6244F0978008AFA62 /* PaymentViewController.m */,
+				675286D4244EC67C0046A74D /* CartViewController.m */,
+				675286D1244EBF090046A74D /* ProductDetaislViewController.m */,
+				67DA66EF244DE10500399B20 /* ProductsViewController.h */,
+				047BED1B250BB6FC00C2A66D /* CustumerProductDetailsViewController.h */,
+				047BED1C250BB6FC00C2A66D /* CustumerProductDetailsViewController.m */,
+				044284EE250786C000335B7C /* HHDropDownList.h */,
+				04B99943250B586100069BDA /* CustomerViewController.h */,
+				04B99944250B586100069BDA /* CustomerViewController.m */,
+				0444A3C8250BABF90057856E /* CustumerProductsViewController.h */,
+				0444A3C9250BABF90057856E /* CustumerProductsViewController.m */,
+				044284EF250786C600335B7C /* HHDropDownList.m */,
+				67DA66F5244DF82300399B20 /* HistoryViewController.h */,
+				67379AFB244F420F008AFA62 /* CustomerHomeViewController.h */,
+				67379AFC244F420F008AFA62 /* CustomerHomeViewController.m */,
+				67DA66F6244DF82300399B20 /* HistoryViewController.m */,
+				04E0D21B250DD2F700335E2D /* ShareViewController.h */,
+				043B9FEF2510FDBA006EDB90 /* UIViewController+EQViewController.m */,
+				043B9FF12510FDD2006EDB90 /* UIViewController+EQViewController.h */,
+				04E0D21C250DD2F700335E2D /* ShareViewController.m */,
+				047BED18250BB68A00C2A66D /* CustumerlistCollectionViewCell.h */,
+				047BED19250BB68A00C2A66D /* CustumerlistCollectionViewCell.m */,
+				0442F52A2514A170003E2BE7 /* CatogoryAndSeriesViewController.h */,
+				0442F52B2514A170003E2BE7 /* CatogoryAndSeriesViewController.m */,
+				675286CA244EA28D0046A74D /* DealerDashboardViewController.h */,
+				043E28AB250F5313001E7487 /* googleMapViewController.h */,
+				043E28AE250F8BDA001E7487 /* cardsCollectionViewCell.h */,
+				0442F52D2514BABC003E2BE7 /* DealerCatagoryViewController.h */,
+				0442F52E2514BABC003E2BE7 /* DealerCatagoryViewController.m */,
+				043E28AF250F8BDA001E7487 /* cardsCollectionViewCell.m */,
+				043E28AC250F5313001E7487 /* googleMapViewController.m */,
+				043E28B1250F9E82001E7487 /* CustumerSearchViewController.h */,
+				043E28B2250F9E82001E7487 /* CustumerSearchViewController.m */,
+				0497C7A5250A0EC000949A45 /* ProductsCollectionViewCell.h */,
+				0497C7A6250A0EC000949A45 /* ProductsCollectionViewCell.m */,
+				675286CB244EA28D0046A74D /* DealerDashboardViewController.m */,
+				67DA66F0244DE10500399B20 /* ProductsViewController.m */,
+				6791BC7F244D8D9C00F26AFC /* ViewController.m */,
+				6791BC81244D8D9C00F26AFC /* Main.storyboard */,
+				67379AEC244EFB3D008AFA62 /* Reg2ViewController.h */,
+				67379AF8244F3640008AFA62 /* ProfileViewController.h */,
+				67379AFE244F4776008AFA62 /* Mycart2ViewController.h */,
+				67379AFF244F4776008AFA62 /* Mycart2ViewController.m */,
+				67379AF9244F3640008AFA62 /* ProfileViewController.m */,
+				043E28A6250F35F0001E7487 /* webviewViewController.h */,
+				043E28A7250F35F0001E7487 /* webviewViewController.m */,
+				67379AED244EFB3D008AFA62 /* Reg2ViewController.m */,
+				67379AEF244EFBAC008AFA62 /* Reg3ViewController.h */,
+				67379AF0244EFBAC008AFA62 /* Reg3ViewController.m */,
+				67379AF2244F00B4008AFA62 /* OfferSchemeViewController.h */,
+				67379AF3244F00B4008AFA62 /* OfferSchemeViewController.m */,
+				675286CD244EB1D10046A74D /* ProductListsViewController.h */,
+				675286CE244EB1D10046A74D /* ProductListsViewController.m */,
+				67DA66F2244DE9E500399B20 /* FavouritesViewController.h */,
+				67DA66F3244DE9E500399B20 /* FavouritesViewController.m */,
+				6791BC87244D8DA000F26AFC /* Assets.xcassets */,
+				6791BC89244D8DA000F26AFC /* LaunchScreen.storyboard */,
+				6791BC8C244D8DA000F26AFC /* Info.plist */,
+				6791BC8D244D8DA000F26AFC /* main.m */,
+				6791BC84244D8D9C00F26AFC /* Waterfal.xcdatamodeld */,
+			);
+			path = Waterfal;
+			sourceTree = "<group>";
+		};
+		6791BC96244D8DA000F26AFC /* WaterfalTests */ = {
+			isa = PBXGroup;
+			children = (
+				6791BC97244D8DA000F26AFC /* WaterfalTests.m */,
+				6791BC99244D8DA000F26AFC /* Info.plist */,
+			);
+			path = WaterfalTests;
+			sourceTree = "<group>";
+		};
+		6791BCA1244D8DA000F26AFC /* WaterfalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6791BCA2244D8DA000F26AFC /* WaterfalUITests.m */,
+				6791BCA4244D8DA000F26AFC /* Info.plist */,
+			);
+			path = WaterfalUITests;
+			sourceTree = "<group>";
+		};
+		F79D09FCB6C90D3DD46C8424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043E28A9250F393F001E7487 /* WebKit.framework */,
+				6732BB7524A0F98E00390AE8 /* AVKit.framework */,
+				6732BB7324A0F97D00390AE8 /* AVFoundation.framework */,
+				D54AD19ADB7A5DF293C3688E /* Pods_Waterfal.framework */,
+				6303D25B5ADF4EC0B6C01134 /* Pods_Waterfal_WaterfalUITests.framework */,
+				8E02248EB61BC90F38919576 /* Pods_WaterfalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6791BC74244D8D9C00F26AFC /* Waterfal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6791BCA7244D8DA000F26AFC /* Build configuration list for PBXNativeTarget "Waterfal" */;
+			buildPhases = (
+				332E082D55AAAA420015FAE1 /* [CP] Check Pods Manifest.lock */,
+				6791BC71244D8D9C00F26AFC /* Sources */,
+				6791BC72244D8D9C00F26AFC /* Frameworks */,
+				6791BC73244D8D9C00F26AFC /* Resources */,
+				7EC0A259F8FC1914F24F3C21 /* [CP] Embed Pods Frameworks */,
+				F7BDE9E99DFC7E59824A8184 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waterfal;
+			productName = Waterfal;
+			productReference = 6791BC75244D8D9C00F26AFC /* Waterfal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6791BC92244D8DA000F26AFC /* WaterfalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6791BCAA244D8DA000F26AFC /* Build configuration list for PBXNativeTarget "WaterfalTests" */;
+			buildPhases = (
+				4F81B61A3A948D318263ED06 /* [CP] Check Pods Manifest.lock */,
+				6791BC8F244D8DA000F26AFC /* Sources */,
+				6791BC90244D8DA000F26AFC /* Frameworks */,
+				6791BC91244D8DA000F26AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6791BC95244D8DA000F26AFC /* PBXTargetDependency */,
+			);
+			name = WaterfalTests;
+			productName = WaterfalTests;
+			productReference = 6791BC93244D8DA000F26AFC /* WaterfalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6791BC9D244D8DA000F26AFC /* WaterfalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6791BCAD244D8DA000F26AFC /* Build configuration list for PBXNativeTarget "WaterfalUITests" */;
+			buildPhases = (
+				A35C8BDAB440357D46F457B6 /* [CP] Check Pods Manifest.lock */,
+				6791BC9A244D8DA000F26AFC /* Sources */,
+				6791BC9B244D8DA000F26AFC /* Frameworks */,
+				6791BC9C244D8DA000F26AFC /* Resources */,
+				AF69B74EB58919D57DB1F21E /* [CP] Embed Pods Frameworks */,
+				A8F59E6BF5A29A649C4E68A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6791BCA0244D8DA000F26AFC /* PBXTargetDependency */,
+			);
+			name = WaterfalUITests;
+			productName = WaterfalUITests;
+			productReference = 6791BC9E244D8DA000F26AFC /* WaterfalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6791BC6D244D8D9C00F26AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Panamon Technologies";
+				TargetAttributes = {
+					6791BC74244D8D9C00F26AFC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					6791BC92244D8DA000F26AFC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 6791BC74244D8D9C00F26AFC;
+					};
+					6791BC9D244D8DA000F26AFC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 6791BC74244D8D9C00F26AFC;
+					};
+				};
+			};
+			buildConfigurationList = 6791BC70244D8D9C00F26AFC /* Build configuration list for PBXProject "Waterfal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6791BC6C244D8D9C00F26AFC;
+			productRefGroup = 6791BC76244D8D9C00F26AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6791BC74244D8D9C00F26AFC /* Waterfal */,
+				6791BC92244D8DA000F26AFC /* WaterfalTests */,
+				6791BC9D244D8DA000F26AFC /* WaterfalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6791BC73244D8D9C00F26AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6791BC8B244D8DA000F26AFC /* LaunchScreen.storyboard in Resources */,
+				673715F724505ECE00C238D2 /* history.html in Resources */,
+				6791BC88244D8DA000F26AFC /* Assets.xcassets in Resources */,
+				6791BC83244D8D9C00F26AFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6791BC91244D8DA000F26AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6791BC9C244D8DA000F26AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		332E082D55AAAA420015FAE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Waterfal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F81B61A3A948D318263ED06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterfalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EC0A259F8FC1914F24F3C21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waterfal/Pods-Waterfal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waterfal/Pods-Waterfal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Waterfal/Pods-Waterfal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A35C8BDAB440357D46F457B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Waterfal-WaterfalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F59E6BF5A29A649C4E68A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF69B74EB58919D57DB1F21E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7BDE9E99DFC7E59824A8184 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waterfal/Pods-Waterfal-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waterfal/Pods-Waterfal-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Waterfal/Pods-Waterfal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6791BC71244D8D9C00F26AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67379B00244F4776008AFA62 /* Mycart2ViewController.m in Sources */,
+				67379ADF244EDCC0008AFA62 /* OrderConformationViewController.m in Sources */,
+				6791BC8E244D8DA000F26AFC /* main.m in Sources */,
+				6791BC80244D8D9C00F26AFC /* ViewController.m in Sources */,
+				673715F524505B2D00C238D2 /* HistorySetlementViewController.m in Sources */,
+				67379AF7244F0978008AFA62 /* PaymentViewController.m in Sources */,
+				6769230E2492578A008E8A05 /* SearchViewController.m in Sources */,
+				04B99945250B586100069BDA /* CustomerViewController.m in Sources */,
+				6791BC7A244D8D9C00F26AFC /* AppDelegate.m in Sources */,
+				675286D8244ECE1B0046A74D /* OrderInformationViewController.m in Sources */,
+				047BED1A250BB68A00C2A66D /* CustumerlistCollectionViewCell.m in Sources */,
+				044284F0250786C700335B7C /* HHDropDownList.m in Sources */,
+				67379AE5244EF560008AFA62 /* LoginRegisterViewController.m in Sources */,
+				0442F52F2514BABC003E2BE7 /* DealerCatagoryViewController.m in Sources */,
+				0444A3CA250BABF90057856E /* CustumerProductsViewController.m in Sources */,
+				67379AFA244F3640008AFA62 /* ProfileViewController.m in Sources */,
+				043E28A8250F35F0001E7487 /* webviewViewController.m in Sources */,
+				67379AE2244EF29F008AFA62 /* SplashViewController.m in Sources */,
+				67DA66F7244DF82300399B20 /* HistoryViewController.m in Sources */,
+				0497C7A7250A0EC000949A45 /* ProductsCollectionViewCell.m in Sources */,
+				675286D5244EC67C0046A74D /* CartViewController.m in Sources */,
+				675286CF244EB1D10046A74D /* ProductListsViewController.m in Sources */,
+				047BED1D250BB6FC00C2A66D /* CustumerProductDetailsViewController.m in Sources */,
+				6791BC7D244D8D9C00F26AFC /* SceneDelegate.m in Sources */,
+				67379AEB244EFA0A008AFA62 /* Reg1ViewController.m in Sources */,
+				675286CC244EA28D0046A74D /* DealerDashboardViewController.m in Sources */,
+				6769230B24920DC4008E8A05 /* MainHomeViewController.m in Sources */,
+				675286D2244EBF090046A74D /* ProductDetaislViewController.m in Sources */,
+				67379AEE244EFB3D008AFA62 /* Reg2ViewController.m in Sources */,
+				67379AFD244F420F008AFA62 /* CustomerHomeViewController.m in Sources */,
+				043B9FF02510FDBA006EDB90 /* UIViewController+EQViewController.m in Sources */,
+				67379AF4244F00B4008AFA62 /* OfferSchemeViewController.m in Sources */,
+				043E28B3250F9E82001E7487 /* CustumerSearchViewController.m in Sources */,
+				043E28B0250F8BDA001E7487 /* cardsCollectionViewCell.m in Sources */,
+				0442F52C2514A170003E2BE7 /* CatogoryAndSeriesViewController.m in Sources */,
+				047BED14250BB1D200C2A66D /* CustumerListViewController.m in Sources */,
+				67379AE8244EF6A0008AFA62 /* VerifyOTPViewController.m in Sources */,
+				67DA66F1244DE10500399B20 /* ProductsViewController.m in Sources */,
+				67DA66F4244DE9E500399B20 /* FavouritesViewController.m in Sources */,
+				043E28AD250F5313001E7487 /* googleMapViewController.m in Sources */,
+				6791BC86244D8D9C00F26AFC /* Waterfal.xcdatamodeld in Sources */,
+				04E0D21D250DD2F700335E2D /* ShareViewController.m in Sources */,
+				67379AF1244EFBAC008AFA62 /* Reg3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6791BC8F244D8DA000F26AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6791BC98244D8DA000F26AFC /* WaterfalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6791BC9A244D8DA000F26AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6791BCA3244D8DA000F26AFC /* WaterfalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6791BC95244D8DA000F26AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6791BC74244D8D9C00F26AFC /* Waterfal */;
+			targetProxy = 6791BC94244D8DA000F26AFC /* PBXContainerItemProxy */;
+		};
+		6791BCA0244D8DA000F26AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6791BC74244D8D9C00F26AFC /* Waterfal */;
+			targetProxy = 6791BC9F244D8DA000F26AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6791BC81244D8D9C00F26AFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6791BC82244D8D9C00F26AFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6791BC89244D8DA000F26AFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6791BC8A244D8DA000F26AFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6791BCA5244D8DA000F26AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6791BCA6244D8DA000F26AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6791BCA8244D8DA000F26AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983214D7A0BA54A5966A1FA3 /* Pods-Waterfal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DA8PB7K3YR;
+				INFOPLIST_FILE = Waterfal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redantmedia.Waterfal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6791BCA9244D8DA000F26AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D17ED63D5CD49213DDF53F8 /* Pods-Waterfal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DA8PB7K3YR;
+				INFOPLIST_FILE = Waterfal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redantmedia.Waterfal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6791BCAB244D8DA000F26AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E42E8650CABAE8C49032D60 /* Pods-WaterfalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DA8PB7K3YR;
+				INFOPLIST_FILE = WaterfalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redantmedia.WaterfalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waterfal.app/Waterfal";
+			};
+			name = Debug;
+		};
+		6791BCAC244D8DA000F26AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BEBCD39BF706444E746C61 /* Pods-WaterfalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DA8PB7K3YR;
+				INFOPLIST_FILE = WaterfalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redantmedia.WaterfalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waterfal.app/Waterfal";
+			};
+			name = Release;
+		};
+		6791BCAE244D8DA000F26AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E670F1D4A80C8484748358F6 /* Pods-Waterfal-WaterfalUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DA8PB7K3YR;
+				INFOPLIST_FILE = WaterfalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redantmedia.WaterfalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Waterfal;
+			};
+			name = Debug;
+		};
+		6791BCAF244D8DA000F26AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC500789AB02C8BD300C4C1 /* Pods-Waterfal-WaterfalUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DA8PB7K3YR;
+				INFOPLIST_FILE = WaterfalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redantmedia.WaterfalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Waterfal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6791BC70244D8D9C00F26AFC /* Build configuration list for PBXProject "Waterfal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6791BCA5244D8DA000F26AFC /* Debug */,
+				6791BCA6244D8DA000F26AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6791BCA7244D8DA000F26AFC /* Build configuration list for PBXNativeTarget "Waterfal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6791BCA8244D8DA000F26AFC /* Debug */,
+				6791BCA9244D8DA000F26AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6791BCAA244D8DA000F26AFC /* Build configuration list for PBXNativeTarget "WaterfalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6791BCAB244D8DA000F26AFC /* Debug */,
+				6791BCAC244D8DA000F26AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6791BCAD244D8DA000F26AFC /* Build configuration list for PBXNativeTarget "WaterfalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6791BCAE244D8DA000F26AFC /* Debug */,
+				6791BCAF244D8DA000F26AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6791BC84244D8D9C00F26AFC /* Waterfal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6791BC85244D8D9C00F26AFC /* Waterfal.xcdatamodel */,
+			);
+			currentVersion = 6791BC85244D8D9C00F26AFC /* Waterfal.xcdatamodel */;
+			path = Waterfal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6791BC6D244D8D9C00F26AFC /* Project object */;
+}
