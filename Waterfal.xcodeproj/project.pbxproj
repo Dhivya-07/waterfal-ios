@@ -25,8 +25,7 @@
 		04E0D21D250DD2F700335E2D /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0D21C250DD2F700335E2D /* ShareViewController.m */; };
 		1875FF442515DACF00C68DFB /* CustomerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF432515DACF00C68DFB /* CustomerStoryboard.storyboard */; };
 		1875FF462515DAE200C68DFB /* DealerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF452515DAE200C68DFB /* DealerStoryboard.storyboard */; };
-		1875FF4B2515F84D00C68DFB /* Url Image Loader in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF4A2515F84D00C68DFB /* Url Image Loader */; };
-		1875FF4F2515FB0500C68DFB /* add on view in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF4E2515FB0500C68DFB /* add on view */; };
+		1875FF522515FBFE00C68DFB /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875FF512515FBFE00C68DFB /* AsyncImageView.m */; };
 		37C9E36ED400B22A0D99B696 /* Pods_Waterfal_WaterfalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6303D25B5ADF4EC0B6C01134 /* Pods_Waterfal_WaterfalUITests.framework */; };
 		6732BB7424A0F97E00390AE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6732BB7324A0F97D00390AE8 /* AVFoundation.framework */; };
 		6732BB7624A0F98E00390AE8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6732BB7524A0F98E00390AE8 /* AVKit.framework */; };
@@ -120,8 +119,8 @@
 		0D17ED63D5CD49213DDF53F8 /* Pods-Waterfal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfal.release.xcconfig"; path = "Target Support Files/Pods-Waterfal/Pods-Waterfal.release.xcconfig"; sourceTree = "<group>"; };
 		1875FF432515DACF00C68DFB /* CustomerStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomerStoryboard.storyboard; sourceTree = "<group>"; };
 		1875FF452515DAE200C68DFB /* DealerStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DealerStoryboard.storyboard; sourceTree = "<group>"; };
-		1875FF4A2515F84D00C68DFB /* Url Image Loader */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Url Image Loader"; sourceTree = "<group>"; };
-		1875FF4E2515FB0500C68DFB /* add on view */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "add on view"; sourceTree = "<group>"; };
+		1875FF502515FBFD00C68DFB /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		1875FF512515FBFE00C68DFB /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 		4BC500789AB02C8BD300C4C1 /* Pods-Waterfal-WaterfalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfal-WaterfalUITests.release.xcconfig"; path = "Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4E42E8650CABAE8C49032D60 /* Pods-WaterfalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfalTests.debug.xcconfig"; path = "Target Support Files/Pods-WaterfalTests/Pods-WaterfalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6303D25B5ADF4EC0B6C01134 /* Pods_Waterfal_WaterfalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Waterfal_WaterfalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -287,9 +286,18 @@
 		1875FF492515F81500C68DFB /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				1875FF4A2515F84D00C68DFB /* Url Image Loader */,
+				1875FF532515FC6800C68DFB /* AsyncImageView */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		1875FF532515FC6800C68DFB /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1875FF502515FBFD00C68DFB /* AsyncImageView.h */,
+				1875FF512515FBFE00C68DFB /* AsyncImageView.m */,
+			);
+			path = AsyncImageView;
 			sourceTree = "<group>";
 		};
 		6791BC6C244D8D9C00F26AFC = {
@@ -317,7 +325,6 @@
 		6791BC77244D8D9C00F26AFC /* Waterfal */ = {
 			isa = PBXGroup;
 			children = (
-				1875FF4E2515FB0500C68DFB /* add on view */,
 				1875FF492515F81500C68DFB /* Helper */,
 				1875FF412515D98200C68DFB /* Dealer */,
 				1875FF422515D99D00C68DFB /* Customer */,
@@ -551,9 +558,7 @@
 				1875FF442515DACF00C68DFB /* CustomerStoryboard.storyboard in Resources */,
 				1875FF462515DAE200C68DFB /* DealerStoryboard.storyboard in Resources */,
 				673715F724505ECE00C238D2 /* history.html in Resources */,
-				1875FF4F2515FB0500C68DFB /* add on view in Resources */,
 				6791BC88244D8DA000F26AFC /* Assets.xcassets in Resources */,
-				1875FF4B2515F84D00C68DFB /* Url Image Loader in Resources */,
 				6791BC83244D8D9C00F26AFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -743,6 +748,7 @@
 				67379AEB244EFA0A008AFA62 /* Reg1ViewController.m in Sources */,
 				675286CC244EA28D0046A74D /* DealerDashboardViewController.m in Sources */,
 				6769230B24920DC4008E8A05 /* MainHomeViewController.m in Sources */,
+				1875FF522515FBFE00C68DFB /* AsyncImageView.m in Sources */,
 				675286D2244EBF090046A74D /* ProductDetaislViewController.m in Sources */,
 				67379AEE244EFB3D008AFA62 /* Reg2ViewController.m in Sources */,
 				67379AFD244F420F008AFA62 /* CustomerHomeViewController.m in Sources */,

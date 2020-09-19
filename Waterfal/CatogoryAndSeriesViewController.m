@@ -295,17 +295,37 @@
           name.text = [self.NameArray objectAtIndex:indexPath.row];
         title.text = [self.DescArray objectAtIndex:indexPath.row];
         
-        NSURL *imageUrl = [NSURL URLWithString:[self.ImageArray objectAtIndex:indexPath.row]];
-          UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:imageUrl]];
-          img.image = image;
+        
+        NSString *imageUrl = [self.ImageArray objectAtIndex:indexPath.row];
+        UIImageView *coursePicture = (UIImageView *) img;
+                    [[AsyncImageLoader sharedLoader] cancelLoadingImagesForTarget:coursePicture];
+                    coursePicture.imageURL = [NSURL URLWithString:imageUrl];
+        
+    
+//          UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:imageUrl]];
+//          img.image = image;
+        
+        
         
     }
       else if ([cat_id isEqualToString:@"2"]){
           name.text = [self.NameSeriesArray objectAtIndex:indexPath.row];
         title.text = [self.DescSeriesArray objectAtIndex:indexPath.row];
-          NSURL *imageUrl = [NSURL URLWithString:[self.imageSeriesArray objectAtIndex:indexPath.row]];
-            UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:imageUrl]];
-            img.image = image;
+    
+          
+//          NSURL *imageUrl = [NSURL URLWithString:[self.imageSeriesArray objectAtIndex:indexPath.row]];
+//            UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:imageUrl]];
+//            img.image = image;
+          
+          
+          NSString *imageUrl2 = [self.imageSeriesArray objectAtIndex:indexPath.row];
+          UIImageView *coursePicture = (UIImageView *) img;
+                      [[AsyncImageLoader sharedLoader] cancelLoadingImagesForTarget:coursePicture];
+                      coursePicture.imageURL = [NSURL URLWithString:imageUrl2];
+          
+          
+          
+          
       }
 
    // name.text = [self.NameArray objectAtIndex:indexPath.row];
