@@ -11,6 +11,8 @@
 #import "AppDelegate.h"
 #import "UIViewController+EQViewController.h"
 #import "CustumerListViewController.h"
+#import "AsyncImageView.h"
+
 
 @interface CatogoryAndSeriesViewController (){
     UIActivityIndicatorView *spinner;
@@ -49,6 +51,7 @@
        
       // dealer = @"dealer";
        self.cnameLabel.text = c_name;
+    
 }
 
 

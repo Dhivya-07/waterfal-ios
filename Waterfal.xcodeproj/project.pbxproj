@@ -23,6 +23,10 @@
 		0497C7A7250A0EC000949A45 /* ProductsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497C7A6250A0EC000949A45 /* ProductsCollectionViewCell.m */; };
 		04B99945250B586100069BDA /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99944250B586100069BDA /* CustomerViewController.m */; };
 		04E0D21D250DD2F700335E2D /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0D21C250DD2F700335E2D /* ShareViewController.m */; };
+		1875FF442515DACF00C68DFB /* CustomerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF432515DACF00C68DFB /* CustomerStoryboard.storyboard */; };
+		1875FF462515DAE200C68DFB /* DealerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF452515DAE200C68DFB /* DealerStoryboard.storyboard */; };
+		1875FF4B2515F84D00C68DFB /* Url Image Loader in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF4A2515F84D00C68DFB /* Url Image Loader */; };
+		1875FF4F2515FB0500C68DFB /* add on view in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF4E2515FB0500C68DFB /* add on view */; };
 		37C9E36ED400B22A0D99B696 /* Pods_Waterfal_WaterfalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6303D25B5ADF4EC0B6C01134 /* Pods_Waterfal_WaterfalUITests.framework */; };
 		6732BB7424A0F97E00390AE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6732BB7324A0F97D00390AE8 /* AVFoundation.framework */; };
 		6732BB7624A0F98E00390AE8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6732BB7524A0F98E00390AE8 /* AVKit.framework */; };
@@ -114,6 +118,10 @@
 		04E0D21B250DD2F700335E2D /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		04E0D21C250DD2F700335E2D /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		0D17ED63D5CD49213DDF53F8 /* Pods-Waterfal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfal.release.xcconfig"; path = "Target Support Files/Pods-Waterfal/Pods-Waterfal.release.xcconfig"; sourceTree = "<group>"; };
+		1875FF432515DACF00C68DFB /* CustomerStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomerStoryboard.storyboard; sourceTree = "<group>"; };
+		1875FF452515DAE200C68DFB /* DealerStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DealerStoryboard.storyboard; sourceTree = "<group>"; };
+		1875FF4A2515F84D00C68DFB /* Url Image Loader */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Url Image Loader"; sourceTree = "<group>"; };
+		1875FF4E2515FB0500C68DFB /* add on view */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "add on view"; sourceTree = "<group>"; };
 		4BC500789AB02C8BD300C4C1 /* Pods-Waterfal-WaterfalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfal-WaterfalUITests.release.xcconfig"; path = "Target Support Files/Pods-Waterfal-WaterfalUITests/Pods-Waterfal-WaterfalUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4E42E8650CABAE8C49032D60 /* Pods-WaterfalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfalTests.debug.xcconfig"; path = "Target Support Files/Pods-WaterfalTests/Pods-WaterfalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6303D25B5ADF4EC0B6C01134 /* Pods_Waterfal_WaterfalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Waterfal_WaterfalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,6 +244,54 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		1875FF412515D98200C68DFB /* Dealer */ = {
+			isa = PBXGroup;
+			children = (
+				1875FF482515DBB300C68DFB /* Login */,
+				1875FF472515DB0B00C68DFB /* Register */,
+				1875FF452515DAE200C68DFB /* DealerStoryboard.storyboard */,
+			);
+			path = Dealer;
+			sourceTree = "<group>";
+		};
+		1875FF422515D99D00C68DFB /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				1875FF432515DACF00C68DFB /* CustomerStoryboard.storyboard */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		1875FF472515DB0B00C68DFB /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				67379AE9244EFA0A008AFA62 /* Reg1ViewController.h */,
+				67379AEA244EFA0A008AFA62 /* Reg1ViewController.m */,
+				67379AEC244EFB3D008AFA62 /* Reg2ViewController.h */,
+				67379AED244EFB3D008AFA62 /* Reg2ViewController.m */,
+				67379AEF244EFBAC008AFA62 /* Reg3ViewController.h */,
+				67379AF0244EFBAC008AFA62 /* Reg3ViewController.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		1875FF482515DBB300C68DFB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				67379AE3244EF560008AFA62 /* LoginRegisterViewController.h */,
+				67379AE4244EF560008AFA62 /* LoginRegisterViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1875FF492515F81500C68DFB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1875FF4A2515F84D00C68DFB /* Url Image Loader */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		6791BC6C244D8D9C00F26AFC = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +317,10 @@
 		6791BC77244D8D9C00F26AFC /* Waterfal */ = {
 			isa = PBXGroup;
 			children = (
+				1875FF4E2515FB0500C68DFB /* add on view */,
+				1875FF492515F81500C68DFB /* Helper */,
+				1875FF412515D98200C68DFB /* Dealer */,
+				1875FF422515D99D00C68DFB /* Customer */,
 				673715F624505ECE00C238D2 /* history.html */,
 				6791BC78244D8D9C00F26AFC /* AppDelegate.h */,
 				6791BC79244D8D9C00F26AFC /* AppDelegate.m */,
@@ -270,16 +330,12 @@
 				67379AE1244EF29F008AFA62 /* SplashViewController.m */,
 				6769230C2492578A008E8A05 /* SearchViewController.h */,
 				6769230D2492578A008E8A05 /* SearchViewController.m */,
-				67379AE3244EF560008AFA62 /* LoginRegisterViewController.h */,
 				673715F324505B2D00C238D2 /* HistorySetlementViewController.h */,
 				673715F424505B2D00C238D2 /* HistorySetlementViewController.m */,
 				67379AE6244EF6A0008AFA62 /* VerifyOTPViewController.h */,
 				67379AE7244EF6A0008AFA62 /* VerifyOTPViewController.m */,
-				67379AE9244EFA0A008AFA62 /* Reg1ViewController.h */,
 				047BED12250BB1D200C2A66D /* CustumerListViewController.h */,
 				047BED13250BB1D200C2A66D /* CustumerListViewController.m */,
-				67379AEA244EFA0A008AFA62 /* Reg1ViewController.m */,
-				67379AE4244EF560008AFA62 /* LoginRegisterViewController.m */,
 				6791BC7B244D8D9C00F26AFC /* SceneDelegate.h */,
 				6791BC7C244D8D9C00F26AFC /* SceneDelegate.m */,
 				6791BC7E244D8D9C00F26AFC /* ViewController.h */,
@@ -329,16 +385,12 @@
 				67DA66F0244DE10500399B20 /* ProductsViewController.m */,
 				6791BC7F244D8D9C00F26AFC /* ViewController.m */,
 				6791BC81244D8D9C00F26AFC /* Main.storyboard */,
-				67379AEC244EFB3D008AFA62 /* Reg2ViewController.h */,
 				67379AF8244F3640008AFA62 /* ProfileViewController.h */,
 				67379AFE244F4776008AFA62 /* Mycart2ViewController.h */,
 				67379AFF244F4776008AFA62 /* Mycart2ViewController.m */,
 				67379AF9244F3640008AFA62 /* ProfileViewController.m */,
 				043E28A6250F35F0001E7487 /* webviewViewController.h */,
 				043E28A7250F35F0001E7487 /* webviewViewController.m */,
-				67379AED244EFB3D008AFA62 /* Reg2ViewController.m */,
-				67379AEF244EFBAC008AFA62 /* Reg3ViewController.h */,
-				67379AF0244EFBAC008AFA62 /* Reg3ViewController.m */,
 				67379AF2244F00B4008AFA62 /* OfferSchemeViewController.h */,
 				67379AF3244F00B4008AFA62 /* OfferSchemeViewController.m */,
 				675286CD244EB1D10046A74D /* ProductListsViewController.h */,
@@ -496,8 +548,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6791BC8B244D8DA000F26AFC /* LaunchScreen.storyboard in Resources */,
+				1875FF442515DACF00C68DFB /* CustomerStoryboard.storyboard in Resources */,
+				1875FF462515DAE200C68DFB /* DealerStoryboard.storyboard in Resources */,
 				673715F724505ECE00C238D2 /* history.html in Resources */,
+				1875FF4F2515FB0500C68DFB /* add on view in Resources */,
 				6791BC88244D8DA000F26AFC /* Assets.xcassets in Resources */,
+				1875FF4B2515F84D00C68DFB /* Url Image Loader in Resources */,
 				6791BC83244D8D9C00F26AFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
