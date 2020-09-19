@@ -34,7 +34,7 @@
      [self.view bringSubviewToFront:_DVIew];
     
     
-        NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@"history" ofType:@"html"];
+      /*  NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@"history" ofType:@"html"];
            NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
 
            
@@ -49,7 +49,7 @@
              //NSURL *nsurl=[NSURL URLWithString:_pdfurl];
              //NSURLRequest *nsrequest=[NSURLRequest requestWithURL:nsurl];
             // [webView loadRequest:nsrequest];
-             [self.wView addSubview:WkwebView];
+             [self.wView addSubview:WkwebView]; */
     
     
     
@@ -162,7 +162,7 @@
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0ul);
        dispatch_async(queue, ^{
 
-           NSString *Url = [NSString stringWithFormat:@"%@%@?user_id=%@&from_date=%@&to_date=%@", BASEURL, STATEMENTS, self->user_id, self->startDate, self->endDate];
+           NSString *Url = [NSString stringWithFormat:@"%@%@?user_id=%@&from_date=%@&to_date=%@", BASEURL, STATEMENTS, @"38", self->startDate, self->endDate];
     NSMutableURLRequest *Request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:Url]];
 
 
@@ -192,68 +192,113 @@
 
                 long status = [[responseDictionary objectForKey:@"status"] integerValue];
             
-                            NSMutableArray *arrayAmount = [[NSMutableArray alloc] init];
-                            NSMutableArray *arrayDate = [[NSMutableArray alloc] init];
-                              NSMutableArray *arrayParticulars = [[NSMutableArray alloc] init];
-              NSMutableArray *arraytypes = [[NSMutableArray alloc] init];
-                              NSMutableArray *arrayType = [[NSMutableArray alloc] init];
-                              NSMutableArray *arrayNumber = [[NSMutableArray alloc] init];
-                             
-
-                   if(status == 1 ) {
-
-
-                       NSDictionary *data = [responseDictionary objectForKey:@"data"];
-                       for (NSDictionary *dat in data){
-                                                  
-                            [arrayAmount addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"amount"]]];
-                                                  
-                            [arrayDate addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"date"]]];
-                                                  
-                            [arrayParticulars addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"particulars"]]];
-                              [arraytypes addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"type"]]];
-                            [arrayType addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"vch_type"]]];
-                                                  
-                            [arrayNumber addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"vouch_no"]]];
-                                                  
-                                                  
-                                              }
-                                             
+            
+            if(status == 1) {
+            
+//
+//            NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@"history" ofType:@"html"];
+//               NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
+//
+//
+//           //    [_webView loadHTMLString:htmlString baseURL: [[NSBundle mainBundle] bundleURL]];
+//
+               
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
                 
-
-                         dispatch_async(dispatch_get_main_queue(), ^{
-
-//                             [self hidePageLoader];
-//                             [self.collectionView reloadData];
-
-
-                         });
-
-
-
-                }else {
-
-                    NSString *msg = [responseDictionary objectForKey:@"message"];
-                    [self salert:@"Alert" second:msg];
-
-                }
-
-            self.AmountArray = arrayAmount;
-                self.DateArray = arrayDate;
-                      self.ParticularsArray = arrayParticulars;
-                      self.TypesArray = arraytypes;
-                      self.TypeArray = arrayType;
-                      self.NoArray = arrayNumber;
                 
+               WKWebViewConfiguration *theConfiguration = [[WKWebViewConfiguration alloc] init];
+                 WKWebView *WkwebView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:theConfiguration];
+                 WkwebView.navigationDelegate = self;
+               
+                [WkwebView loadHTMLString:[responseDictionary objectForKey:@"data"] baseURL: [[NSBundle mainBundle] bundleURL]];
+                 //NSURL *nsurl=[NSURL URLWithString:_pdfurl];
+                 //NSURLRequest *nsrequest=[NSURLRequest requestWithURL:nsurl];
+                // [webView loadRequest:nsrequest];
+                 [self.wView addSubview:WkwebView];
+            
+            
+            
+            });
+            
+            
+            
+            
+            
+            
+            
+            
+            }
+            
+            
+            
+            
+            
+            
+            
+//                            NSMutableArray *arrayAmount = [[NSMutableArray alloc] init];
+//                            NSMutableArray *arrayDate = [[NSMutableArray alloc] init];
+//                              NSMutableArray *arrayParticulars = [[NSMutableArray alloc] init];
+//              NSMutableArray *arraytypes = [[NSMutableArray alloc] init];
+//                              NSMutableArray *arrayType = [[NSMutableArray alloc] init];
+//                              NSMutableArray *arrayNumber = [[NSMutableArray alloc] init];
+//
 
-        }else {
-
-
-            NSLog(@"%@",@"ERROR");
-
+//                   if(status == 1 ) {
+//
+//
+//                       NSDictionary *data = [responseDictionary objectForKey:@"data"];
+//                       for (NSDictionary *dat in data){
+//
+//                            [arrayAmount addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"amount"]]];
+//
+//                            [arrayDate addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"date"]]];
+//
+//                            [arrayParticulars addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"particulars"]]];
+//                              [arraytypes addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"type"]]];
+//                            [arrayType addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"vch_type"]]];
+//
+//                            [arrayNumber addObject:[NSString stringWithFormat:@"%@", [dat objectForKey:@"vouch_no"]]];
+//
+//
+//                                              }
+//
+//
+//
+//                         dispatch_async(dispatch_get_main_queue(), ^{
+//
+////                             [self hidePageLoader];
+////                             [self.collectionView reloadData];
+//
+//
+//                         });
+//
+//
+//
+//                }else {
+//
+//                    NSString *msg = [responseDictionary objectForKey:@"message"];
+//                    [self salert:@"Alert" second:msg];
+//
+//                }
+//
+//            self.AmountArray = arrayAmount;
+//                self.DateArray = arrayDate;
+//                      self.ParticularsArray = arrayParticulars;
+//                      self.TypesArray = arraytypes;
+//                      self.TypeArray = arrayType;
+//                      self.NoArray = arrayNumber;
+//
+//
+//        }else {
+//
+//
+//            NSLog(@"%@",@"ERROR");
+//
         }
 
 
+        
     }];
 
     [dataTask resume];
